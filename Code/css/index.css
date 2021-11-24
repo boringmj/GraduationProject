@@ -108,6 +108,7 @@
 }
 
 #side_nav{
+    z-index: 1000;
     position: fixed;
     right: 20px;
     top: 36%;
@@ -142,6 +143,98 @@
     width: 72px;
     height: 4px;
     background: #9e2627;
+}
+
+#about{
+    padding: 30px 0px;
+    background: #f7f7f7;
+}
+
+.title-main{
+    position: relative;
+}
+
+.font-serial{
+    font-family: "微软雅黑 Regular";
+    font-size: 120px;
+    color: #d5acac;
+}
+
+.font-title{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+.font-title-en{
+    font-family: "苹方中等";
+    font-size: 52px;
+    color: #962525;
+}
+
+.font-title-zh{
+    font-family: "苹方中等";
+    font-size: 30px;
+    color: #333333;
+}
+
+#about .introduce{
+    font-family: "苹方中等";
+    color: #666666;
+    font-size: 24px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.about-images{
+    margin-top: 30px;
+    padding-left: 70px;
+}
+
+.about-images img{
+    height: 100%;
+}
+
+.about-images .col-sm{
+    padding: 0px;
+    background: #c02c38;
+}
+
+.about-images .col-sm .about-info{
+    display: none;
+}
+
+.about-images .col-sm:hover img{
+    display: none;
+}
+
+.about-images .col-sm:hover .about-info{
+    display: block;
+}
+
+.about-info{
+    padding: 30px;
+}
+
+.font-about-title{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: "苹方中等";
+}
+
+.about-split{
+    width: 80px;
+    height: 2px;
+    margin: 20px auto;
+    background:white;
+}
+
+.font-about-content{
+    font-family: "苹方细体";
+    font-size: 20px;
+    color: white;
 }
 
 @media screen and (max-width: 1300px){
@@ -197,18 +290,77 @@
     }
 
     #side_nav{
-        top: 30%;
+        top: 20%;
+        font-size: 22px;
+    }
+
+    #side_nav .active{
+        font-size: 26px;
+    }
+
+    #side_nav .active .component{
+        width: 56px;
+        height: 2px;
+    }
+
+    #side_nav li{
+        list-style: none;
+        margin-top: 8px;
+    }
+
+    .font-serial{
+        font-size: 60px;
+    }
+    
+    .font-title{
+        top: 30px;
+        left: 40px;
+    }
+    
+    .font-title-en{
+        font-size: 26px;
+    }
+    
+    .font-title-zh{
+        font-size: 14px;
+    }
+
+    #about .introduce{
+        margin-left: 26px;
+        font-size: 16px;
+    }
+
+    .about-images{
+        padding-left: 26px;
+    }
+
+    .about-info{
+        padding: 10px;
+    }
+    
+    .font-about-title{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .about-split{
+        width: 60px;
+        height: 2px;
+        margin: 10px auto;
+    }
+    
+    .font-about-content{
+        font-size: 14px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .banner-hint{
         bottom: 70px;
         left: 70px;
     }
 
     #side_nav{
-        right: 20px;
         top: 20%;
         font-size: 18px;
     }
@@ -228,9 +380,28 @@
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px){
     .banner-hint{
         bottom: 20px;
         left: 20px;
+    }
+
+    .about-info{
+        padding: 4px;
+    }
+    
+    .font-about-title{
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    
+    .about-split{
+        width: 60px;
+        height: 2px;
+        margin: 4px auto;
+    }
+    
+    .font-about-content{
+        font-size: 8px;
     }
 }

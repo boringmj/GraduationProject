@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: '汉仪双线体繁'; 
+    src: url('../fonts/HYShuangXianTiF.ttf');
+}
+
+@font-face{
+    font-family: '苹方细体'; 
+    src: url('../fonts/PingFang\ Light.ttf');
+}
+
+@font-face{
+    font-family: '苹方中等'; 
+    src: url('../fonts/PingFang\ Medium.ttf');
+}
+
+@font-face{
+    font-family: '苹方粗体'; 
+    src: url('../fonts/PingFang\ Regular.ttf');
+}
+
+.header{
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo{
+    height: 60px;
+}
+
+#tools{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #666666;
+    border-radius: 20px;
+    padding: 4px 10px;
+}
+
+.search #search-input{
+    width: 300px;
+    background: none;
+    border: 0px;
+    outline: none;
+}
+
+.search #search-icon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+}
+
+.header .icon{
+    width: 34px;
+    height: 34px;
+    margin-left: 16px;
+}
+
+.banner-hint{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.font-shuangyi{
+    font-family: "汉仪双线体繁";
+    color: #9e2627;
+    font-size: 66px;
+}
+
+.font-pingfangmedium{
+    font-family: "苹方中等";
+    color: #acacac;
+    font-size: 16px;
+}
+
+.font-erke{
+    font-family: "苹方中等";
+    color: #ffffff;
+    font-size: 76px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.banner-hint button{
+    width: 200px;
+    padding: 4px;
+    border: 1px solid #242424;
+    border-radius: 20px;
+    background: none;
+    margin-top: 20px;
+}
+
+.banner-hint button:hover{
+    color: white;
+    background: #c02c38;
+}
+
+#side_nav{
+    position: fixed;
+    right: 20px;
+    top: 36%;
+    font-family: "苹方细体";
+    font-size: 28px;
+    text-align: right;
+}
+
+#side_nav .active{
+    font-family: "苹方中等";
+    font-size: 32px;
+}
+
+#side_nav li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#side_nav a{
+    color: #333333;
+}
+
+#side_nav a:hover{
+    text-decoration: none;
+    color: #333333;
+}
+
+#side_nav .active .component{
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 72px;
+    height: 4px;
+    background: #9e2627;
+}
+
+@media screen and (max-width: 1300px){
+    .banner-hint{
+        bottom: 250px;
+        left: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .banner-hint{
+        bottom: 200px;
+        left: 200px;
+    }
+
+    .font-shuangyi{
+        font-size: 64px;
+    }
+    
+    .font-pingfangmedium{
+        font-size: 12px;
+    }
+    
+    .font-erke{
+        font-size: 72px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .search #search-input{
+        width: 200px;
+        background: none;
+        border: 0px;
+        outline: none;
+    }
+
+    .banner-hint{
+        bottom: 150px;
+        left: 150px;
+    }
+
+    .font-shuangyi{
+        font-size: 34px;
+    }
+    
+    .font-pingfangmedium{
+        font-size: 8px;
+    }
+    
+    .font-erke{
+        font-size: 38px;
+        bottom: 34px;
+    }
+
+    #side_nav{
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-hint{
+        bottom: 70px;
+        left: 70px;
+    }
+
+    #side_nav{
+        right: 20px;
+        top: 20%;
+        font-size: 18px;
+    }
+
+    #side_nav .active{
+        font-size: 22px;
+    }
+
+    #side_nav .active .component{
+        width: 48px;
+        height: 2px;
+    }
+
+    #side_nav li{
+        list-style: none;
+        margin-top: 4px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner-hint{
+        bottom: 20px;
+        left: 20px;
+    }
+}

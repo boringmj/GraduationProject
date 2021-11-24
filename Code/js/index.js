@@ -1,0 +1,11 @@
+//监听商品换页按钮移入移出事件
+$("#commodity_show\\-go_left").hover(function(){
+    $("#commodity_show\\-go_left").attr("src","./images/go_left_active.png");
+},function(){
+    $("#commodity_show\\-go_left").attr("src","./images/go_left.png");
+});
+$("#commodity_show\\-go_right").hover(function(){
+    $("#commodity_show\\-go_right").attr("src","./images/go_right_active.png");
+},function(){
+    $("#commodity_show\\-go_right").attr("src","./images/go_right.png");
+});

@@ -64,3 +64,14 @@ body{
         font-size: 14px;
     }    
 }
+
+@media screen and (max-width: 768px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer li{
+        border-right: none;
+    }
+}

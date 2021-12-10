@@ -3,23 +3,9 @@ cart={"checked":{"true":"./images/cart-checked.png","false":"./images/cart-unche
 
 //选择组件监听
 $(".checkbox").click(function(){
+    var all_check=true;
+    var obj=this;
     checked=$(this).attr("commodity_checked");
-    //判断被点击的是否为全选按钮
-    if($(this).hasClass("checkbox-all"))
-    {
-        $(".commodity_list .info .checkbox").each(function(){
-            if(checked=="true")
-            {
-                $(this).attr("src",cart.checked.false);
-                $(this).attr("commodity_checked","false");
-            }
-            else
-            {
-                $(this).attr("src",cart.checked.true);
-                $(this).attr("commodity_checked","true");
-            }
-        });
-    }
     //改变被被点击按钮的属性
     if(checked=="true")
     {
@@ -30,6 +16,32 @@ $(".checkbox").click(function(){
     {
         $(this).attr("src",cart.checked.true);
         $(this).attr("commodity_checked","true");
+    }
+    $(".commodity_list .info .checkbox").each(function(){
+        if($(obj).hasClass("checkbox-all"))
+        {
+            if(checked=="true")
+            {
+                $(this).attr("src",cart.checked.false);
+                $(this).attr("commodity_checked","false");
+            }
+            else
+            {
+                $(this).attr("src",cart.checked.true);
+                $(this).attr("commodity_checked","true");
+            }
+        }
+        if($(this).attr("commodity_checked")=="false") all_check=false;
+    });
+    if(all_check)
+    {
+        $(".checkbox-all").attr("src",cart.checked.true);
+        $(".checkbox-all").attr("commodity_checked","true");
+    }
+    else
+    {
+        $(".checkbox-all").attr("src",cart.checked.false);
+        $(".checkbox-all").attr("commodity_checked","false");
     }
     show_commodity_info();
 });

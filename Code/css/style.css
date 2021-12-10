@@ -2,6 +2,26 @@
 
 /* 全局通用样式表 */
 
+@font-face{
+    font-family: '汉仪双线体繁'; 
+    src: url('../fonts/HYShuangXianTiF.ttf');
+}
+
+@font-face{
+    font-family: '苹方细体'; 
+    src: url('../fonts/PingFang\ Light.ttf');
+}
+
+@font-face{
+    font-family: '苹方中等'; 
+    src: url('../fonts/PingFang\ Medium.ttf');
+}
+
+@font-face{
+    font-family: '苹方粗体'; 
+    src: url('../fonts/PingFang\ Regular.ttf');
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +29,14 @@
 
 body{
     background: #f7f7f7;
+}
+
+.header{
+    position: relative;
+}
+
+.header .logo{
+    height: 40px;
 }
 
 .footer{

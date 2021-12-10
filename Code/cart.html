@@ -55,21 +55,21 @@
                         <div class="list mt-3">
                             <div class="total">
                                 <div>
-                                    <img class="checkbox" src="./images/cart-unchecked.png">
+                                    <img commodity_checked="false" class="checkbox checkbox-all" src="./images/cart-unchecked.png">
                                     <span class="hint">全选</span>
                                 </div>
                                 <div>
                                     <span class="count ml-4">共 2 件</span>
                                 </div>
                             </div>
-                            <div class="container">
+                            <div class="container commodity_list">
                                 <div class="row row-cols-1">
                                     <div class="col mt-3">
                                         <div class="card border-light">
                                             <div class="card-body">
                                                 <div class="info">
                                                     <div>
-                                                        <img class="checkbox" src="./images/cart-checked.png">
+                                                        <img commodity_checked="true" money_value="269" class="checkbox" src="./images/cart-checked.png">
                                                         <img class="info-image img-fluid" src="images/commodity/shoe03.png">
                                                     </div>
                                                     <div class="info-info d-none d-md-block">
@@ -92,7 +92,7 @@
                                                             </div>
                                                         </div>
                                                     <div class="info-money">
-                                                        <span>&#165;269.00</span>
+                                                        <span class="info-money-value">&#165;269.00</span>
                                                         <span><s>&#165;289.00</s></span>
                                                     </div>
                                                     <button type="button" class="close" aria-label="Close">
@@ -108,7 +108,7 @@
                                             <div class="card-body">
                                                 <div class="info">
                                                     <div>
-                                                        <img class="checkbox" src="./images/cart-unchecked.png">
+                                                        <img commodity_checked="false" money_value="269" class="checkbox" src="./images/cart-unchecked.png">
                                                         <img class="info-image img-fluid" src="images/commodity/shoe01.png">
                                                     </div>
                                                     <div class="info-info d-none d-md-block">
@@ -131,7 +131,7 @@
                                                             </div>
                                                         </div>
                                                     <div class="info-money">
-                                                        <span>&#165;269.00</span>
+                                                        <span class="info-money-value">&#165;269.00</span>
                                                         <span><s>&#165;289.00</s></span>
                                                     </div>
                                                     <button type="button" class="close" aria-label="Close">
@@ -158,7 +158,7 @@
                                     <div class="stats-info">
                                         <div>
                                             <span>商品价格</span>
-                                            <span>&#165;289.00</span>
+                                            <span class="stats_commodity_money">&#165;289.00</span>
                                         </div>
                                         <div>
                                             <span>预计运费</span>
@@ -170,11 +170,7 @@
                                         </div>
                                         <div>
                                             <span>商家优惠</span>
-                                            <span>&#165;20.00</span>
-                                        </div>
-                                        <div>
-                                            <span>商品价格</span>
-                                            <span>&#165;289.00</span>
+                                            <span class="stats-concessions">&#165;20.00</span>
                                         </div>
                                         <div>
                                             <span class="invisible">合计</span>

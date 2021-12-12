@@ -58,7 +58,7 @@ function show_commodity_info()
             i++;
         }
     });
-    $(".stats_commodity_money").html("&#165;"+count);
-    $(".stats-concessions").html("&#165;"+(cart.concessions*i));
-    $(".stats-count").html("&#165;"+(count-cart.concessions*i));
+    $(".stats_commodity_money").html("&#165;"+Math.floor(count).toFixed(2));
+    $(".stats-concessions").html("&#165;"+Math.floor(cart.concessions*i).toFixed(2));
+    $(".stats-count").html("&#165;"+Math.floor(count-cart.concessions*i).toFixed(2));
 }

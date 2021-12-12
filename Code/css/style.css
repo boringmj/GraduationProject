@@ -8,7 +8,7 @@
 }
 
 @font-face{
-    font-family: '苹方细体'; 
+    font-family: '苹方常规'; 
     src: url('../fonts/PingFang\ Light.ttf');
 }
 
@@ -18,7 +18,7 @@
 }
 
 @font-face{
-    font-family: '苹方粗体'; 
+    font-family: '苹方常规'; 
     src: url('../fonts/PingFang\ Regular.ttf');
 }
 

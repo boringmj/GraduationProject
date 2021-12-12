@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.body{
+body{
     font-family: "苹方中等";
     color: #333333;
 }
@@ -80,7 +80,7 @@
 }
 
 .content .info .info-content{
-    font-family: "苹方细体";
+    font-family: "苹方常规";
     font-size: 16px;
     margin-left: 10px;
 }

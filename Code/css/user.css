@@ -140,7 +140,12 @@ body{
     font-family: "苹方常规";
 }
 
+.tab-content #v-tnav-tabs-address a:hover{
+    text-decoration: none;
+}
+
 .tab-content #v-tnav-tabs-address .add{
+    color: #666666;
     width: 340px;
     display: flex;
     flex-direction: column;
@@ -193,6 +198,10 @@ body{
 
     .tab-content #v-tnav-tabs-info .content>div{
         max-width: 100%;
+    }
+
+    .tab-content #v-tnav-tabs-address .add{
+        width: 240px;
     }
 
     .tab-content #v-tnav-tabs-collect .content,.tab-content #v-tnav-tabs-coupon .content,.tab-content #v-tnav-tabs-after_sale .content{

@@ -1,5 +1,5 @@
 //预定义全局变量
-var merchandise_data={"url":""};
+var merchandise_data={"url":"","id":""};
 //绑定地址与参数(第一个为默认)
 var merchandise_value=[
     ["clothing","./data/merchandise_list_clothing.json"],
@@ -22,6 +22,7 @@ if(!is_value)
     merchandise_path=merchandise_value[0][1];
 $.getJSON(merchandise_path,"",function(data){
     merchandise_data.url=data.to;
+    merchandise_data.id=data.id;
     var dir_path=data.img_path+"/"+data.id+"/";
     $(".merchandise_name").text(data.name);
     $(".merchandise_hint").text(data.hint);
@@ -49,6 +50,16 @@ $.getJSON(merchandise_path,"",function(data){
         }
         i++;
     });
+});
+
+//了解更多点击事件
+$(".banner\-more").click(function(){
+    location.href=merchandise_data.url;
+});
+
+//商品点击事件(所有商品将根据类型同意链接到一个地址)
+$(".list .list-item .list-images").click(function(){
+    window.open("merchandise_details.html?id="+merchandise_data.id,"_blank");
 });
 
 //定义一个用于获取get参数的函数

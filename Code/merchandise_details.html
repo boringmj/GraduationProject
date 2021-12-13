@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <title>产品-鸿星尔克</title>
+        <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <link type="text/css" rel="stylesheet" href="./css/merchandise_details.css">
+    </head>
+    <body>
+        <!--考虑到兼容性问题,放弃了 Header 标签的使用,改用传统的 Div 标签-->
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img class="logo img-fluid" src="./images/erke_logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">首页</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="merchandise.html">产品<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">购物车</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">企业介绍</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="my_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                我的
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="my_user">
+                                <a class="dropdown-item" href="user.html?id=info">个人信息</a>
+                                <a class="dropdown-item" href="user.html?id=collect">我的收藏</a>
+                                <a class="dropdown-item" href="user.html?id=address">地址管理</a>
+                                <a class="dropdown-item" href="user.html?id=order">订单管理</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-danger my-2 my-sm-0">搜索</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container info">
+            <div class="row row-cols-1 row-cols-xl-2">
+                <div class="col col-xl-8">
+                    <div class="row row-cols-2">
+                        <div class="col mt-3">
+                            <img class="img-fluid show_images" src="./images/merchandise/children/children-01.jpg">
+                        </div>
+                        <div class="col mt-3">
+                            <img class="img-fluid show_images" src="./images/merchandise/children/children-02.jpg">
+                        </div>
+                        <div class="col mt-3">
+                            <img class="img-fluid show_images" src="./images/merchandise/children/children-03.jpg">
+                        </div>
+                        <div class="col mt-3">
+                            <img class="img-fluid show_images" src="./images/merchandise/children/children-03.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-4">
+                    <div class="name">名称</div>
+                    <div class="number">款号</div>
+                    <div class="price">
+                        <span class="money">02</span>
+                        <span class="money_original"><s>01</s></span>
+                    </div>
+                    <div class="discounts">
+                        <div>
+                            <span>聚划算</span>
+                        </div>
+                        <div>
+                            <span>【会员】专享:免运费</span>
+                            <span>【12.12】跨店每200减20 服饰百货劵 满400减40</span>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <span class="color-active">【8175】-正黑色</span>
+                        <span>三种颜色可选</span>
+                    </div>
+                    <div class="size">
+                        <div class="size-active">选择合适的尺码</div>
+                        <div><a href="javascript:vod(0);">尺码表</a></div>
+                    </div>
+                    <button class="add_cart">加入购物车</button>
+                    <button class="buy">立即购买</button>
+                    <div class="stats-between"></div>
+                    <div>
+                        <span class="title">基础保障</span>
+                        <ul>
+                            <li><img class="img-fluid" src="./images/merchandise/yes.png">价保服务
+                                <div>
+                                    若商品在价保（以订单详情显示的价保期为准）内降价，商家支持差价补偿服务，具体规则可查看《价保服务标准》
+                                </div>
+                            </li>
+                            <li><img class="img-fluid" src="./images/merchandise/yes.png">极速退款
+                                <div>
+                                    满足相应条件，诚信用户在退货寄出后，享受极速退款到账
+                                </div>
+                            </li>
+                            <li><img class="img-fluid" src="./images/merchandise/yes.png">七天无理由退换
+                                <div>
+                                    满足相应条件（衣物污渍/破损不支持）时，消费者可申请“七天无理由退换”
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <ul>
+                    <li><a href="javascript:void(0);">隐私政策</a></li>
+                    <li><a href="javascript:void(0);">加入我们</a></li>
+                    <li><a href="javascript:void(0);">发现店铺</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./images/china.png"><span class="national">中国</span>
+                <span class="copy">© 2021 Erke, Inc. 保留所有权利</span>
+                <img src="./images/china.png"><span class="icp">闽ICP备05018314号</span>
+            </div>
+        </div>
+        <!--JQuery v3.6.0-->
+        <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+        <!--Bootstrap v4.6.1-->
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+        <!--ShoeList Page Javascript-->
+        <script type="text/javascript" src="./js/merchandise_details.js"></script>
+    </body>
+</html>

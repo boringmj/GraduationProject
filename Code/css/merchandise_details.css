@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+body{
+    font-family: "苹方常规";
+    color: #333333;
+}
+
+.name{
+    font-size: 26px;
+}
+
+.number{
+    font-size: 16px;
+    color: #999999;
+}
+
+.price{
+    font-size: 28px;
+    color: #c02c38;
+}
+
+.price span:nth-child(2){
+    margin-left: 10px;
+    font-size: 18px;
+    color: #999999;
+}
+
+.discounts{
+    display: flex;
+    justify-content: space-between;
+    background: #eeeeee;
+    padding: 10px;
+    margin: 20px 0px 30px;
+}
+
+.discounts div:nth-child(1) span{
+    display: block;
+    background: #c02c38;
+    color: white;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.discounts div:nth-child(2) span{
+    display: block;
+    color: #c02c38;
+    font-size: 14px;
+}
+
+.color{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4px;
+    border: 2px solid #333333;
+    font-size: 14px;
+}
+
+.color span:nth-child(2){
+    font-size: 12px;
+    color: #999999;
+}
+
+.size{
+    display: flex;
+    margin-top: 20px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.size div:nth-child(1){
+    cursor: pointer;
+    padding: 10px 4px;
+    border: 2px solid #333333;
+    width: 150px;
+}
+
+.size div:nth-child(2) a{
+    margin-left: 20px;
+    color: inherit;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #333333;
+}
+
+.size div:nth-child(2) a:hover{
+    text-decoration: none;
+    color: #111111;
+    border-bottom:none;
+}
+
+.add_cart,.buy{
+    font-size: 18px;
+    width: 100%;
+    margin-top: 30px;
+    border: 2px solid #c02c38;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.add_cart{
+    background: #c02c38;
+    color: white;
+}
+
+.buy{
+    margin-top: 14px;
+    background: white;
+    color: #333333;
+}
+
+.add_cart:hover{
+    background: #a20022;
+}
+
+.buy:hover{
+    background: #f6f6f6;
+}
+
+.stats-between{
+    border-bottom: 1px solid #333333;
+    margin: 30px 0px;
+}
+
+.title{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info ul{
+    list-style: none;
+    color: 12px;
+    font-size: 16px;
+}
+
+.info ul li img{
+    width: 20px;
+    margin-right: 14px;
+}
+
+.info ul li div{
+    margin-left: 34px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.display-none{
+    display: none;
+}
+
+@media screen and (max-width: 1440px){
+    .name{
+        margin-top: 30px;
+    }
+}

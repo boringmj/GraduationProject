@@ -80,12 +80,17 @@ body{
     width: 100%;
 }
 
+.list-item .list-images
+{
+    cursor: pointer;
+}
+
 .list-item .name{
     max-width: 80%;
     text-align: center;
     font-family: "苹方常规";
     font-size: 16px;
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 
 .list-item .price{

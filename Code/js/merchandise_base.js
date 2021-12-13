@@ -40,8 +40,8 @@ $.getJSON(merchandise_path,"",function(data){
                 $($(this).find(".price")).addClass("price_only");
                 $($(this).find(".original_price")).addClass("display-none");
             }
-            $($(this).find(".price")).html("&#165;"+data.data[i][1]);
-            $($(this).find(".original_price")).html("&#165;<s>"+data.data[i][2]+"</s>");
+            $($(this).find(".price")).html("&#165;"+Number(data.data[i][1]).toFixed(2));
+            $($(this).find(".original_price")).html("&#165;<s>"+Number(data.data[i][2]).toFixed(2)+"</s>");
         }
         else
         {

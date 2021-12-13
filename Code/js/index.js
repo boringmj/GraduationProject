@@ -2,7 +2,7 @@
 var commodity={"page":2,"limit":4,"active":1,"type":"shoe","data_rul":"./data/commodity.json","img_dir":"./images/commodity","commodity_data":{}};
 
 //预处理事件(部分数据是不需要实时更新的,只需要处理一次就可以了)
-$.getJSON(commodity.data_rul,"", function(data){
+$.getJSON(commodity.data_rul,"",function(data){
     commodity.commodity_data=data;
 });
 

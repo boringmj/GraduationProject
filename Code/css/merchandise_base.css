@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+body{
+    font-family: "苹方中等";
+    color: #333333;
+}
+
+.banner{
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-hint{
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+.banner .color-black{
+    color: #333333;
+}
+
+.banner-hint span{
+    font-size: 48px;
+}
+
+.banner button{
+    font-size: 20px;
+    background: black;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    padding: 4px;
+    color: white;
+    width: 200px;
+}
+
+.banner button:hover{
+    background: #303030;
+}
+
+.header_nav{
+    display: flex;
+    font-size: 20px;
+    color: #999999;
+    font-family: "苹方常规";
+    justify-content: space-between;
+    border-top: 2px solid #666666;
+    border-bottom: 2px solid #666666;
+    padding: 8px 0px;
+}
+
+.header_nav a{
+    color: inherit;
+}
+
+.header_nav .active{
+    color: #c02c38;
+}
+
+.list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4px;
+    border: 2px solid #f7f7f7;
+    margin-top: 10px;
+    background: white;
+}
+
+.list-item:hover{
+    border: 2px solid #666666;
+}
+
+.list-item img{
+    width: 100%;
+}
+
+.list-item .name{
+    max-width: 80%;
+    text-align: center;
+    font-family: "苹方常规";
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.list-item .price{
+    font-size: 20px;
+    color: #c02c38;
+}
+
+.list-item .price_only{
+    font-size: 20px;
+    color: #333333;
+}
+
+.list-item .original_price{
+    font-size: 16px;
+    color: #999999;
+    margin-left: 10px;
+}
+
+.list-item>div{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.list-item .more{
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;;
+}
+
+.list-item .name{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+
+.list-item .more img{
+    width: 20px;
+    height: 20px;
+}
+
+.list-item:hover .more{
+    display: block;
+}
+
+.list-big{
+    margin-top: 10px;
+    background: white;
+}
+
+.list-big>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-big>div a{
+    max-width: 48%;
+    margin-bottom: 10px;
+}
+
+.list .display-none{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .banner-hint{
+        bottom: 20px;
+        font-size: 24px;
+    }
+
+    .banner-hint span{
+        font-size: 16px;
+    }
+
+    .banner button{
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .header_nav{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .list-item .more{
+        padding: 20px;
+        background: #ffffff;
+        width: 100%;
+    }
+}

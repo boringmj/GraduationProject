@@ -6,6 +6,11 @@ $.getJSON(commodity.data_rul,"", function(data){
     commodity.commodity_data=data;
 });
 
+//监听购物按钮
+$("#go_merchandise").click(function(){
+    location.href="./merchandise.html"
+});
+
 //监听商品换页按钮移入移出事件
 $("#commodity_show\\-go_left").hover(function(){
     $(this).attr("src","./images/go_left_active.png");

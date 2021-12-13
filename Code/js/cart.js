@@ -8,6 +8,11 @@ $(".close").click(function(){
     show_commodity_info();
 });
 
+//监听购物按钮
+$("#go_merchandise").click(function(){
+    location.href="./merchandise.html"
+});
+
 //选择组件监听
 $(".checkbox").click(function(){
     var all_check=true,count=0;

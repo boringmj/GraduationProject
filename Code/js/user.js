@@ -11,6 +11,11 @@ var user={
     "default":0
 };
 
+//监听购物按钮
+$("#go_merchandise").click(function(){
+    location.href="./merchandise.html"
+});
+
 //监听添加地址按钮移入移出事件
 $(".tab-content #v-tnav-tabs-address .add").hover(function(){
     $(this).find("img").attr("src","./images/address-add-on.png");

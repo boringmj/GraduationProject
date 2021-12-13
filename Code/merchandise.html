@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <title>产品-鸿星尔克</title>
+        <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <link type="text/css" rel="stylesheet" href="./css/merchandise.css">
+    </head>
+    <body>
+        <!--考虑到兼容性问题,放弃了 Header 标签的使用,改用传统的 Div 标签-->
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img class="logo img-fluid" src="./images/erke_logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">首页</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">产品</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">购物车</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">企业介绍</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="my_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                我的
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="my_user">
+                                <a class="dropdown-item" href="user.html?id=info">个人信息</a>
+                                <a class="dropdown-item" href="user.html?id=collect">我的收藏</a>
+                                <a class="dropdown-item" href="user.html?id=address">地址管理</a>
+                                <a class="dropdown-item" href="user.html?id=order">订单管理</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-danger my-2 my-sm-0">搜索</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner">
+                <div id="banner" class="carousel slide" data-pause=false data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/banner11.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/banner12.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/banner13.jpg" class="d-block w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-hint">
+                    <span>ALL PRODUCTS</span><br>
+                    全部商品
+                </div>
+            </div>
+        </div>
+        <div class="container list mt-5">
+            <div class="list-001">
+                <div class="list-01 mt-1">
+                    <a href="#">
+                        <img id="list-0001" class="img-fluid list-img" img_name="clothing" src="./images/merchandise/clothing01.jpg">
+                    </a>
+                    <div class="more more-white" to_id="list-0001">
+                        <span>服装</span>
+                        <div>
+                            <a href="#">
+                                <span>查看更多</span>
+                                <img class="img-fluid" src="./images/more01.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-02 mt-1">
+                    <a href="#">
+                        <img id="list-0002" class="img-fluid list-img" img_name="hat" src="./images/merchandise/hat01.jpg">
+                    </a>
+                    <div class="more more-white" to_id="list-0002">
+                        <span>其他</span>
+                        <div>
+                            <a href="#">
+                                <span>查看更多</span>
+                                <img class="img-fluid" src="./images/more01.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-002">
+                <div class="list-02 mt-1">
+                    <a href="#">
+                        <img id="list-0003" class="img-fluid list-img" img_name="shoes" src="./images/merchandise/shoes01.jpg">
+                    </a>
+                    <div class="more more-white" to_id="list-0003">
+                        <span>鞋子</span>
+                        <div>
+                            <a href="#">
+                                <span>查看更多</span>
+                                <img class="img-fluid" src="./images/more01.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-01 mt-1">
+                    <a href="#">
+                        <img id="list-0004" class="img-fluid list-img" img_name="children" src="./images/merchandise/children01.jpg">
+                    </a>
+                    <div class="more more-white" to_id="list-0004">
+                        <span>儿童</span>
+                        <div>
+                            <a href="#">
+                                <span>查看更多</span>
+                                <img class="img-fluid" src="./images/more01.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <ul>
+                    <li><a href="javascript:void(0);">隐私政策</a></li>
+                    <li><a href="javascript:void(0);">加入我们</a></li>
+                    <li><a href="javascript:void(0);">发现店铺</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./images/china.png"><span class="national">中国</span>
+                <span class="copy">© 2021 Erke, Inc. 保留所有权利</span>
+                <img src="./images/china.png"><span class="icp">闽ICP备05018314号</span>
+            </div>
+        </div>
+        <!--JQuery v3.6.0-->
+        <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+        <!--Bootstrap v4.6.1-->
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+        <!--Merchandise Page Javascript-->
+        <script type="text/javascript" src="./js/merchandise.js"></script>
+    </body>
+</html>

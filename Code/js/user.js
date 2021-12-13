@@ -11,6 +11,13 @@ var user={
     "default":0
 };
 
+//监听添加地址按钮移入移出事件
+$(".tab-content #v-tnav-tabs-address .add").hover(function(){
+    $(this).find("img").attr("src","./images/address-add-on.png");
+},function(){
+    $(this).find("img").attr("src","./images/address-add.png");
+});
+
 var id=getQueryVariable("id");
 if(id)
 {

@@ -179,6 +179,10 @@ body{
     padding: 4px;
 }
 
+.content .stats .stats-submit>button:hover{
+    background: #96001a;
+}
+
 @media screen and (max-width: 768px){
     .content .info .info-info{
         min-width: 30%;

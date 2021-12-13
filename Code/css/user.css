@@ -156,6 +156,11 @@ body{
     margin: 20px 0px;
 }
 
+.tab-content #v-tnav-tabs-address .add:hover{
+    background: #c02c38;
+    color: white;
+}
+
 .tab-content #v-tnav-tabs-address .add img{
     width: 30px;
 }
@@ -172,6 +177,10 @@ body{
     border: none;
     border-radius: 6px;
     margin-top: 20px;
+}
+
+.tab-content #v-tnav-tabs-order .content button:hover{
+    background: #96001a;
 }
 
 @media screen and (max-width: 992px){

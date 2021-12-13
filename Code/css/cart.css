@@ -183,6 +183,35 @@ body{
     background: #96001a;
 }
 
+.content .list-empty,.content .list-is-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.content .list-empty img{
+    width: 50px;
+}
+
+.content .list-empty span{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.content .list-empty a{
+    color: inherit;
+}
+
+.content .list-is-empty{
+    color: #999999;
+}
+
+.content .invisible{
+    display: none;
+}
+
 @media screen and (max-width: 768px){
     .content .info .info-info{
         min-width: 30%;

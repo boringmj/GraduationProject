@@ -55,7 +55,7 @@ body{
     height: 300px;
 }
 
-.list .list-02 img{
+.list .list-02 .list-img{
     position: relative;
     top: -30px;
 }

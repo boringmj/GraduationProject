@@ -8,7 +8,13 @@ $.getJSON(commodity.data_rul,"",function(data){
 
 //监听购物按钮
 $("#go_merchandise").click(function(){
-    location.href="./merchandise.html"
+    location.href="./merchandise.html";
+});
+
+//监听物品列表
+$(".list-item").click(function(){
+    var id=commodity.type=="children_clothing"?"children":commodity.type;
+    location.href="./merchandise_details.html?id="+id;
 });
 
 //监听商品换页按钮移入移出事件

@@ -334,6 +334,10 @@
     background: #c02c38;
 }
 
+.list-item{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1300px){
     .banner-hint{
         bottom: 250px;

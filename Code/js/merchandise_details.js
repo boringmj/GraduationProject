@@ -42,6 +42,16 @@ $.getJSON(merchandise_path,"",function(data){
     });
 });
 
+//监听结算按钮添加
+$(".buy").click(function(){
+    location.href="./pay.html";
+});
+
+//监听购物车按钮
+$(".add_cart").click(function(){
+    location.href="./cart.html";
+});
+
 //定义一个用于获取get参数的函数
 function getQueryVariable(variable)
 {

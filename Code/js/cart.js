@@ -10,7 +10,12 @@ $(".close").click(function(){
 
 //监听购物按钮
 $("#go_merchandise").click(function(){
-    location.href="./merchandise.html"
+    location.href="./merchandise.html";
+});
+
+//监听结算按钮添加
+$(".go_pay").click(function(){
+    location.href="./pay.html";
 });
 
 //选择组件监听

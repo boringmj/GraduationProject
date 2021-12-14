@@ -1,7 +1,7 @@
 {
     "name":"其他",
     "hint":"OTHER",
-    "to":"#",
+    "to":"merchandise_more.html?id=other",
     "img_path":"./images/merchandise",
     "id":"other",
     "big_img":"big picture.jpg",

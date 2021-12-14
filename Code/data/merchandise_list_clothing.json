@@ -1,7 +1,7 @@
 {
     "name":"服装",
     "hint":"CLOTHING",
-    "to":"#",
+    "to":"merchandise_more.html?id=clothing",
     "img_path":"./images/merchandise",
     "id":"clothing",
     "big_img":"big picture.jpg",

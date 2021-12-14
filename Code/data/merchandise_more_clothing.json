@@ -1,0 +1,13 @@
+{
+    "title_en":"ENERGY<br>TECHNOLOGY",
+    "title_zh":"燚能技术",
+    "title":"好动，不怕冻",
+    "img_path":"./images/merchandise",
+    "id":"clothing",
+    "banner_img":"clothing-technical.png",
+    "data":[
+        ["锁热设计","f-01.jpg","领口防风设计<br>有效锁住热量"],
+        ["急速升温","f-02.jpg","内胆搭载石墨烯材料<br>迅速导热"],
+        ["高弹面料","f-03.jpg","高弹平纹面料，弹性十足<br>让运动更加自足"]
+    ]
+}

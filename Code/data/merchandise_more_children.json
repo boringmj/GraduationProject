@@ -1,0 +1,13 @@
+{
+    "title_en":"ENERGY<br>TECHNOLOGY",
+    "title_zh":"来自极克未来实验室",
+    "title":"小尔克玩真的",
+    "img_path":"./images/merchandise",
+    "id":"children",
+    "banner_img":"children-technical.jpg",
+    "data":[
+        ["锁热设计","c-1.png","领口防风设计<br>有效锁住热量"],
+        ["急速升温","c-2.png","内胆搭载石墨烯材料<br>迅速导热"],
+        ["高弹面料","c-3.png","高弹平纹面料，弹性十足<br>让运动更加自足"]
+    ]
+}

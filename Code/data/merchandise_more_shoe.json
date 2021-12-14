@@ -1,0 +1,13 @@
+{
+    "title_en":"FUTURE<br>LABORATORY",
+    "title_zh":"来自极克未来实验室",
+    "title":"这就是弜",
+    "img_path":"./images/merchandise",
+    "id":"shoe",
+    "banner_img":"shoe-technical.jpg",
+    "data":[
+        ["高效回弹","s-01.jpg","全新弜弹科技<br>中底高效存储和释放能量<br>为双脚提供充足能量反馈"],
+        ["稳定支撑","s-02.jpg","稳定支撑侧翼流线型TPU支撑架<br>提供高强度支撑<br>有效防止侧翻"],
+        ["防滑耐磨","s-03.jpg","独特星轨纹路打底<br>增强抓地能力"]
+    ]
+}

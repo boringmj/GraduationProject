@@ -1,7 +1,7 @@
 {
     "name":"儿童",
     "hint":"CHILDREN",
-    "to":"#",
+    "to":"merchandise_more.html?id=children",
     "img_path":"./images/merchandise",
     "id":"children",
     "big_img":"big picture.jpg",

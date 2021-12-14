@@ -6,7 +6,7 @@
         <title>产品-鸿星尔克</title>
         <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./css/style.css">
-        <link type="text/css" rel="stylesheet" href="./css/merchandise_details.css">
+        <link type="text/css" rel="stylesheet" href="./css/merchandise_more.css">
     </head>
     <body>
         <!--考虑到兼容性问题,放弃了 Header 标签的使用,改用传统的 Div 标签-->
@@ -48,71 +48,53 @@
                     </div>
                 </div>
             </nav>
-        </div>
-        <div class="container info">
-            <div class="row row-cols-1 row-cols-xl-2">
-                <div class="col col-xl-8">
-                    <div class="row row-cols-2">
-                        <div class="col mt-3">
-                            <img class="img-fluid show_images" src="">
-                        </div>
-                        <div class="col mt-3">
-                            <img class="img-fluid show_images" src="">
-                        </div>
-                        <div class="col mt-3">
-                            <img class="img-fluid show_images" src="">
-                        </div>
-                        <div class="col mt-3">
-                            <img class="img-fluid show_images" src="">
+            <div class="banner">
+                <div id="banner" class="carousel slide" data-pause=false data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="" class="d-block w-100 merchandise_banner">
                         </div>
                     </div>
                 </div>
-                <div class="col col-xl-4">
-                    <div class="name">名称</div>
-                    <div class="number">款号</div>
-                    <div class="price">
-                        <span class="money">02</span>
-                        <span class="money_original"><s>01</s></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-xl-2">
+                <div class="col col-xl-5 mt-3">
+                    <sapn class="title-en">ENERGY<br>TECHNOLOGY</sapn><br>
+                    <span class="title-zh">燚能技术</span>
+                </div>
+                <div class="col col-xl-7 mt-3">
+                    <div class="title">
+                        <span>“</span>
+                        <span>好动，不怕冻</span>
+                        <span>”</span>
                     </div>
-                    <div class="discounts">
-                        <div>
-                            <span>聚划算</span>
+                    <div class="info">
+                        <div class="info-content">
+                            <img class="img-fluid info_images" src="">
+                            <div>
+                                <img class="img-fluid" src="./images/merchandise/yes.png">
+                                <span class="info-content-01">功能</span>
+                            </div>
+                            <span class="info-content-02">介绍</span>
                         </div>
-                        <div>
-                            <span>【会员】专享:免运费</span>
-                            <span>【12.12】跨店每200减20 服饰百货劵 满400减40</span>
+                        <div class="info-content">
+                            <img class="img-fluid info_images" src="">
+                            <div>
+                                <img class="img-fluid" src="./images/merchandise/yes.png">
+                                <span class="info-content-01">功能</span>
+                            </div>
+                            <span class="info-content-02">介绍</span>
                         </div>
-                    </div>
-                    <div class="color">
-                        <span class="color-active">【8175】-正黑色</span>
-                        <span>三种颜色可选</span>
-                    </div>
-                    <div class="size">
-                        <div class="size-active">选择合适的尺码</div>
-                        <div><a href="javascript:vod(0);">尺码表</a></div>
-                    </div>
-                    <button class="add_cart">加入购物车</button>
-                    <button class="buy">立即购买</button>
-                    <div class="stats-between"></div>
-                    <div>
-                        <span class="title">基础保障</span>
-                        <ul>
-                            <li><img class="img-fluid" src="./images/merchandise/yes.png">价保服务
-                                <div>
-                                    若商品在价保（以订单详情显示的价保期为准）内降价，商家支持差价补偿服务，具体规则可查看《价保服务标准》
-                                </div>
-                            </li>
-                            <li><img class="img-fluid" src="./images/merchandise/yes.png">极速退款
-                                <div>
-                                    满足相应条件，诚信用户在退货寄出后，享受极速退款到账
-                                </div>
-                            </li>
-                            <li><img class="img-fluid" src="./images/merchandise/yes.png">七天无理由退换
-                                <div>
-                                    满足相应条件（衣物污渍/破损不支持）时，消费者可申请“七天无理由退换”
-                                </div>
-                            </li>
-                        </ul>
+                        <div class="info-content">
+                            <img class="img-fluid info_images" src="">
+                            <div>
+                                <img class="img-fluid" src="./images/merchandise/yes.png">
+                                <span class="info-content-01">功能</span>
+                            </div>
+                            <span class="info-content-02">介绍</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -136,7 +118,7 @@
         <!--Bootstrap v4.6.1-->
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
-        <!--MerchandiseDetails Page Javascript-->
-        <script type="text/javascript" src="./js/merchandise_details.js"></script>
+        <!--MerchandiseMore Page Javascript-->
+        <script type="text/javascript" src="./js/merchandise_more.js"></script>
     </body>
 </html>

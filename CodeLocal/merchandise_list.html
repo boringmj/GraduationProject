@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <title>产品-鸿星尔克</title>
+        <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <link type="text/css" rel="stylesheet" href="./css/merchandise_list.css">
+    </head>
+    <body>
+        <!--考虑到兼容性问题,放弃了 Header 标签的使用,改用传统的 Div 标签-->
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img class="logo img-fluid" src="./images/erke_logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">首页</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="merchandise.html">产品<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">购物车</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">企业介绍</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="my_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                我的
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="my_user">
+                                <a class="dropdown-item" href="user.html?id=info">个人信息</a>
+                                <a class="dropdown-item" href="user.html?id=collect">我的收藏</a>
+                                <a class="dropdown-item" href="user.html?id=address">地址管理</a>
+                                <a class="dropdown-item" href="user.html?id=order">订单管理</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-danger my-2 my-sm-0">搜索</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner">
+                <div id="banner" class="carousel slide" data-pause=false data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="" class="d-block w-100 merchandise_banner">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-hint">
+                    <span class="merchandise_hint">SHOE</span><br>
+                    <div class="merchandise_name">鞋子</div>
+                    <button class="banner-more">了解更多</button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 header_nav" >
+            <div>
+                <a href="./merchandise.html">全部商品</a>&nbsp;&gt;&nbsp;<span class="merchandise_name">鞋子</span>
+            </div>
+            <div>
+                <a class="active" href="javascript:void(0);">男</a>&nbsp;|&nbsp;<a href="javascript:void(0);">女</a>
+                <span class="ml-2">排序: <a href="javascript:void(0);">综合排序</a>&nbsp;&gt;</span>
+            </div>
+        </div>
+        <div class="container list mt-5">
+            <div class="container list-row">
+                <div class="row row-cols-2 row-cols-lg-4">
+                    <div class="col list-item">
+                        <img class="img-fluid list-images" src="">
+                        <span class="name">商品名称</span>
+                        <div>
+                            <div>
+                                <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                            </div>
+                            <div class="more">
+                                <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col list-item">
+                        <img class="img-fluid list-images" src="">
+                        <span class="name">商品名称</span>
+                        <div>
+                            <div>
+                                <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                            </div>
+                            <div class="more">
+                                <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col list-item">
+                        <img class="img-fluid list-images" src="">
+                        <span class="name">商品名称</span>
+                        <div>
+                            <div>
+                                <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                            </div>
+                            <div class="more">
+                                <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col list-item">
+                        <img class="img-fluid list-images" src="">
+                        <span class="name">商品名称</span>
+                        <div>
+                            <div>
+                                <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                            </div>
+                            <div class="more">
+                                <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container list-row">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col list-big">
+                        <img class="img-fluid big_photo" src="">
+                        <div>
+                            <a href="javascript:void(0);"><img class="img-fluid" src="./images/merchandise/coupon.png"></a>
+                            <a href="javascript:void(0);"><img class="img-fluid" src="./images/merchandise/coupon.png"></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-2">
+                            <div class="col list-item">
+                                <img class="img-fluid list-images" src="">
+                                <span class="name">商品名称</span>
+                                <div>
+                                    <div>
+                                        <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                                    </div>
+                                    <div class="more">
+                                        <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                        <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col list-item">
+                                <img class="img-fluid list-images" src="">
+                                <span class="name">商品名称</span>
+                                <div>
+                                    <div>
+                                        <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                                    </div>
+                                    <div class="more">
+                                        <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                        <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col list-item">
+                                <img class="img-fluid list-images" src="">
+                                <span class="name">商品名称</span>
+                                <div>
+                                    <div>
+                                        <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                                    </div>
+                                    <div class="more">
+                                        <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                        <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col list-item">
+                                <img class="img-fluid list-images" src="">
+                                <span class="name">商品名称</span>
+                                <div>
+                                    <div>
+                                        <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                                    </div>
+                                    <div class="more">
+                                        <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                        <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container list-row">
+                <div class="row row-cols-2 row-cols-lg-4">
+                    <div class="col list-item">
+                        <img class="img-fluid list-images" src="">
+                        <span class="name">商品名称</span>
+                        <div>
+                            <div>
+                                <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                            </div>
+                            <div class="more">
+                                <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col list-item">
+                        <img class="img-fluid list-images" src="">
+                        <span class="name">商品名称</span>
+                        <div>
+                            <div>
+                                <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                            </div>
+                            <div class="more">
+                                <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col list-item">
+                        <img class="img-fluid list-images" src="">
+                        <span class="name">商品名称</span>
+                        <div>
+                            <div>
+                                <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                            </div>
+                            <div class="more">
+                                <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col list-item">
+                        <img class="img-fluid list-images" src="">
+                        <span class="name">商品名称</span>
+                        <div>
+                            <div>
+                                <span class="price">&#165;100</span><span class="original_price"><s>&#165;100.00</s></span>
+                            </div>
+                            <div class="more">
+                                <a href="javascript:void(0);"><img src="./images/merchandise/like.png"></a>
+                                <a href="javascript:void(0);"><img src="./images/merchandise/cart.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <ul>
+                    <li><a href="javascript:void(0);">隐私政策</a></li>
+                    <li><a href="javascript:void(0);">加入我们</a></li>
+                    <li><a href="javascript:void(0);">发现店铺</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./images/china.png"><span class="national">中国</span>
+                <span class="copy">© 2021 Erke, Inc. 保留所有权利</span>
+                <img src="./images/china.png"><span class="icp">闽ICP备05018314号</span>
+            </div>
+        </div>
+        <!--JQuery v3.6.0-->
+        <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+        <!--Bootstrap v4.6.1-->
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+        <!--MerchandiseList Page Javascript-->
+        <script type="text/javascript" src="./js/merchandise_list.js"></script>
+    </body>
+</html>

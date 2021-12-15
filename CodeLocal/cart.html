@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <title>购物车-鸿星尔克</title>
+        <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <link type="text/css" rel="stylesheet" href="./css/cart.css">
+    </head>
+    <body>
+        <!--考虑到兼容性问题,放弃了 Header 标签的使用,改用传统的 Div 标签-->
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img class="logo img-fluid" src="./images/erke_logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="merchandise.html">产品</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">购物车<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">企业介绍</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="my_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                我的
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="my_user">
+                                <a class="dropdown-item" href="user.html?id=info">个人信息</a>
+                                <a class="dropdown-item" href="user.html?id=collect">我的收藏</a>
+                                <a class="dropdown-item" href="user.html?id=address">地址管理</a>
+                                <a class="dropdown-item" href="user.html?id=order">订单管理</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-danger my-2 my-sm-0">搜索</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-xl-2">
+                    <div class="col col-xl-8">
+                        <div class="title">
+                            <span class="title-tiekuorg"></span>
+                            <span class="title-title">购物车</span><span class="title-en">/<span class="title-en-title">SHOPPING CART</span></span>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="total">
+                                <div>
+                                    <img commodity_checked="false" class="checkbox checkbox-all" src="./images/cart-unchecked.png">
+                                    <span class="hint">全选</span>
+                                </div>
+                                <div>
+                                    <span class="count ml-4">共 <span id="commodity_count">2</span> 件</span>
+                                </div>
+                            </div>
+                            <div class="container commodity_list">
+                                <div class="row row-cols-1">
+                                    <div class="col mt-3" id="commodity_id_01">
+                                        <div class="card border-light">
+                                            <div class="card-body">
+                                                <div class="info">
+                                                    <div>
+                                                        <img commodity_checked="true" money_value="269" class="checkbox" src="./images/cart-checked.png">
+                                                        <img class="info-image img-fluid" src="images/commodity/shoe03.png">
+                                                    </div>
+                                                    <div class="info-info d-none d-md-block">
+                                                        <div class="info-name">秋冬新款时尚耐磨休闲鞋</div>
+                                                        <div>
+                                                            <div class="info-base">
+                                                                <div class="info-content">
+                                                                    <span class="info-title">颜色</span>
+                                                                    <span class="info-value">黑白</span>
+                                                                </div>
+                                                                <div class="info-content">
+                                                                    <span class="info-title">数码</span>
+                                                                    <span class="info-value">37.5</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-content info-number">
+                                                                <span class="info-title">数量</span>
+                                                                <span class="info-value">1</span>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    <div class="info-money">
+                                                        <span class="info-money-value">&#165;269.00</span>
+                                                        <span><s>&#165;289.00</s></span>
+                                                    </div>
+                                                    <button type="button" class="close" aria-label="Close" commodity_id="01">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="info-sm-name d-block d-md-none">秋冬新款时尚耐磨休闲鞋 (黑白 37.5码) x1</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col mt-3" id="commodity_id_02">
+                                        <div class="card border-light">
+                                            <div class="card-body">
+                                                <div class="info">
+                                                    <div>
+                                                        <img commodity_checked="false" money_value="269" class="checkbox" src="./images/cart-unchecked.png">
+                                                        <img class="info-image img-fluid" src="images/commodity/shoe01.png">
+                                                    </div>
+                                                    <div class="info-info d-none d-md-block">
+                                                        <div class="info-name">秋冬新款时尚耐磨休闲鞋</div>
+                                                        <div>
+                                                            <div class="info-base">
+                                                                <div class="info-content">
+                                                                    <span class="info-title">颜色</span>
+                                                                    <span class="info-value">米色/樱桃粉</span>
+                                                                </div>
+                                                                <div class="info-content">
+                                                                    <span class="info-title">数码</span>
+                                                                    <span class="info-value">37.5</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-content info-number">
+                                                                <span class="info-title">数量</span>
+                                                                <span class="info-value">1</span>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    <div class="info-money">
+                                                        <span class="info-money-value">&#165;269.00</span>
+                                                        <span><s>&#165;289.00</s></span>
+                                                    </div>
+                                                    <button type="button" class="close" aria-label="Close" commodity_id="02">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="info-sm-name d-block d-md-none">秋冬新款时尚耐磨休闲鞋 (米色/樱桃粉 37.5码) x1</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-empty mt-3 invisible">
+                            <img src="./images/shopping_cart.png">
+                            <span>购物车里空空如也，赶紧去<a id="go_merchandise" href="javascript:void(0);"><u>购物</u></a>吧~</span>
+                        </div>
+                    </div>
+                    <div class="col col-xl-4">
+                        <div class="card stats-card border-light mt-5">
+                            <div class="card-body">
+                                <div class="stats">
+                                    <div>
+                                        <div class="stats-title">明细</div>
+                                        <div class="stats-title-en">BILL DETAIL</div>
+                                    </div>
+                                    <div class="stats-between"></div>
+                                    <div class="list-not-empty">
+                                        <div class="stats-info">
+                                            <div>
+                                                <span>商品价格</span>
+                                                <span class="stats_commodity_money">&#165;289.00</span>
+                                            </div>
+                                            <div>
+                                                <span>预计运费</span>
+                                                <span>&#165;00.00</span>
+                                            </div>
+                                            <div>
+                                                <span>运险费<span class="stats-hint">运费险(卖家赠送)</span></span>
+                                                <span>&#165;00.00</span>
+                                            </div>
+                                            <div>
+                                                <span>商家优惠</span>
+                                                <span class="stats-concessions">&#165;20.00</span>
+                                            </div>
+                                            <div>
+                                                <span class="invisible">合计</span>
+                                                <span class="stats-count">实付款&#165;269.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="stats-between"></div>
+                                        <div class="stats-submit">
+                                            <button class="go_pay">结算</button>
+                                        </div>
+                                    </div>
+                                    <div class="list-is-empty invisible">
+                                        <span>暂无明细</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <ul>
+                    <li><a href="javascript:void(0);">隐私政策</a></li>
+                    <li><a href="javascript:void(0);">加入我们</a></li>
+                    <li><a href="javascript:void(0);">发现店铺</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./images/china.png"><span class="national">中国</span>
+                <span class="copy">© 2021 Erke, Inc. 保留所有权利</span>
+                <img src="./images/china.png"><span class="icp">闽ICP备05018314号</span>
+            </div>
+        </div>
+        <!--JQuery v3.6.0-->
+        <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+        <!--Bootstrap v4.6.1-->
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+        <!--Cart Page Javascript-->
+        <script type="text/javascript" src="./js/cart.js"></script>
+    </body>
+</html>

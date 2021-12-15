@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+body{
+    font-family: "苹方中等";
+    color: #333333;
+}
+
+.user{
+    margin-top: 40px;
+}
+
+.user>.title{
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user>.title .title-tiekuorg{
+    display: block;
+    background: #a81c2a;
+    width: 60px;
+    height: 4px;
+}
+
+.user>.title .title-title{
+    font-size: 32px;
+}
+
+.user>.title a{
+    color: #666666;
+    font-size: 16px;
+}
+
+.user-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user-nav>div{
+    background: white;
+    margin: 40px 40px 0px;
+    padding: 40px;
+}
+
+.user-nav>div:nth-child(1){
+    margin-right: 0px;
+}
+
+.user-nav .tab-content{
+    flex: 1;
+}
+
+.user-nav .nav .title{
+    font-size: 22px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #cccccc;
+    margin: 10px 0px;
+}
+
+.user-nav-tabs a{
+    font-size: 18px;
+    color: #333333;
+    padding-left: 0px;
+}
+
+.user-nav-tabs .active{
+    color: #c02c38;
+}
+
+.tab-content .title{
+    font-size: 26px;
+    font-family: "苹方常规";
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+.tab-content .title span{
+    display: block;
+    color: #b10000;
+}
+
+.tab-content .title span:nth-child(2){
+    margin-left: 40px;
+    color: #333333;
+}
+
+.tab-content .content{
+    min-height: 400px;
+}
+
+.tab-content #v-tnav-tabs-info .content>div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    font-size: 18px;
+    font-family: "苹方常规";
+    margin-bottom: 10px;
+}
+
+.tab-content #v-tnav-tabs-info .content>div:nth-child(1){
+    margin-bottom: 0px;
+    max-width: 100%;
+}
+
+.tab-content #v-tnav-tabs-info .content>div:nth-child(1) a{
+    font-size: 16px;
+    color: #666666;
+}
+
+.tab-content #v-tnav-tabs-info .hint{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "苹方常规";
+    font-family: 10px;
+}
+
+.tab-content #v-tnav-tabs-collect .content,.tab-content #v-tnav-tabs-coupon .content,.tab-content #v-tnav-tabs-after_sale .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "苹方常规";
+}
+
+.tab-content #v-tnav-tabs-collect .content img,.tab-content #v-tnav-tabs-coupon .content img,.tab-content #v-tnav-tabs-after_sale .content img{
+    width: 50px;
+    margin-right: 40px;
+}
+
+.tab-content #v-tnav-tabs-address .content,.tab-content #v-tnav-tabs-order .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #666666;
+    font-family: "苹方常规";
+}
+
+.tab-content #v-tnav-tabs-address a:hover{
+    text-decoration: none;
+}
+
+.tab-content #v-tnav-tabs-address .add{
+    color: #666666;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid #c02c38;
+    margin: 20px 0px;
+}
+
+.tab-content #v-tnav-tabs-address .add:hover{
+    background: #c02c38;
+    color: white;
+}
+
+.tab-content #v-tnav-tabs-address .add img{
+    width: 30px;
+}
+
+.tab-content #v-tnav-tabs-order .content{
+    color: #333333;
+}
+
+.tab-content #v-tnav-tabs-order .content button{
+    background: #c02c38;
+    padding: 4px;
+    width: 180px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.tab-content #v-tnav-tabs-order .content button:hover{
+    background: #96001a;
+}
+
+@media screen and (max-width: 992px){
+    .user>.title{
+        margin: 0px;
+    }
+
+    .user-nav{
+        flex-direction: column;
+    }
+
+    .user-nav>div{
+        margin: 20px 0px;
+        padding: 20px;
+    }
+
+    .user-nav .nav .title{
+        font-size: 20px;
+    }
+
+    .user-nav-tabs a{
+        font-size: 16px;
+    }
+
+    .tab-content #v-tnav-tabs-info .content>div{
+        max-width: 100%;
+    }
+
+    .tab-content #v-tnav-tabs-address .add{
+        width: 240px;
+    }
+
+    .tab-content #v-tnav-tabs-collect .content,.tab-content #v-tnav-tabs-coupon .content,.tab-content #v-tnav-tabs-after_sale .content{
+        font-size: 18px;
+        flex-direction: column;
+    }
+
+    .tab-content #v-tnav-tabs-collect .content img,.tab-content #v-tnav-tabs-coupon .content img,.tab-content #v-tnav-tabs-after_sale .content img{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}

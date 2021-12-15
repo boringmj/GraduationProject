@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+body{
+    font-family: "苹方常规";
+    color: #333333;
+}
+
+.content .title .title-tiekuorg{
+    display: block;
+    background: #a81c2a;
+    width: 60px;
+    height: 4px;
+}
+
+.content .title .title-title{
+    font-size: 40px;
+}
+
+.content .title .title-en{
+    font-size: 20px;
+}
+
+.content .title .title-en-title{
+    color: #999999;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-image{
+    width: 200px;
+}
+
+.info-base{
+    display: flex;
+}
+
+.info-title{
+    color: #323232;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.info-value{
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-right: 8px;
+}
+
+.info-01{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-name{
+    font-family: "苹方中等";
+    font-size: 18px;
+    color: #323232;
+}
+
+.info-money{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "苹方中等";
+    font-size: 24px;
+}
+
+.info-money span:nth-child(2){
+    font-size: 18px;
+}
+
+.info-money>span{
+    display: block;
+}
+
+.user_info-title{
+    font-family: "苹方中等";
+    font-size: 22px;
+    margin: 20px 0px;
+}
+
+.address{
+    display: flex;
+}
+
+.address>div{
+    width: 300px;
+    border: 2px solid #999999;
+    padding: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.address>div:hover{
+    background: #e8e8e8;
+}
+
+.address .active{
+    border: 2px solid #a81c2a;
+}
+
+.address img{
+    width: 20px;
+    height: 20px;
+}
+
+.address .name{
+    font-size: 16px;
+}
+
+.address .number,.address .address_info,.address .address_set{
+    font-size: 14px;
+}
+
+.address .user_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address .address_info{
+    margin: 10px 0px;
+}
+
+.address .address_set{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address a{
+    color: inherit;
+}
+
+.address .address_add{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.address .address_add img{
+    margin-bottom: 10px;
+}
+
+.user_info-title-01{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #999999;
+}
+
+.stats-between{
+    border-bottom: 2px solid #999999;
+    margin: 40px 0px;
+}
+
+.ply_count{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ply_count .count{
+    margin-top: 10px;
+}
+
+.ply_count .count span{
+    font-size: 30px;
+    color: #c02c38;
+    font-family: "苹方中等";
+}
+
+.stats-submit{
+    display: flex;
+    justify-content: end;
+}
+
+.stats-submit>button{
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    background: #c02c38;
+    border: none;
+    border-radius: 40px;
+    padding: 8px;
+}
+
+.stats-submit>button:hover{
+    background: #96001a;
+}
+
+
+@media screen and (max-width: 768px){
+    .address>div{
+        padding: 8px;
+    }
+}

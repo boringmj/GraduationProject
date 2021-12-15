@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <title>首页-鸿星尔克</title>
+        <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <link type="text/css" rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <!--考虑到兼容性问题,放弃了 Header 标签的使用,改用传统的 Div 标签-->
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img class="logo img-fluid" src="./images/erke_logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">首页<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="merchandise.html">产品</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">购物车</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">企业介绍</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="my_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                我的
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="my_user">
+                                <a class="dropdown-item" href="user.html?id=info">个人信息</a>
+                                <a class="dropdown-item" href="user.html?id=collect">我的收藏</a>
+                                <a class="dropdown-item" href="user.html?id=address">地址管理</a>
+                                <a class="dropdown-item" href="user.html?id=order">订单管理</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-danger my-2 my-sm-0">搜索</button>
+                    </div>
+                </div>
+            </nav>
+            <div id="banner" class="carousel slide" data-pause=false data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/banner01.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/banner02.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/banner03.png" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+            <div class="banner-hint">
+                <div>
+                    <div class="font-shuangyi d-none d-sm-block">WELCOME</div>
+                    <div class="font-pingfangmedium d-none d-sm-block">TO BE NUMVER 1.</div>
+                    <div class="font-shuangyi d-none d-sm-block">TO</div>
+                </div>
+                <div class="font-erke">鸿星尔克</div>
+                <button>了解更多</button>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container title-main">
+                <div class="title">
+                    <div class="font-serial">01</div>
+                    <div class="font-title">
+                        <div class="font-title-en">ABOUT ERKE</div>
+                        <div class="font-title-zh">关于尔克</div>
+                    </div>
+                </div>
+                <div class="introduce">
+                    创立于2000年6月的鸿星尔克，积极倡导“年轻、时尚、阳光”的生活方式，致力于打造全球领先的运动品牌。鸿星尔克始终坚持以市场为导向，以广大年轻消费者为服务对象，为其提供日常运动生活所需的鞋、服、配件等高性价比产品，给消费者带来健康舒适的非凡体验。
+                </div>
+                <div class="about-images">
+                    <div class="container">
+                        <div class="row row-cols-3">
+                            <div class="col-sm">
+                                <img class="img-fluid" src="./images/about01.png">
+                                <div class="about-info">
+                                    <div class="font-about-title">01</div>
+                                    <div class="font-about-title">企业介绍</div>
+                                    <div class="about-split"></div>
+                                    <div class="font-about-content">
+                                        鸿星尔克（厦门）实业有限公司成立于2000年6月，总部位于国际花园城市—厦门，经过多年励精图治，目前已发展为集研发、生产、销售为一体、员工近2万人的大型服饰企业。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <img class="img-fluid" src="./images/about02.png">
+                                <div class="about-info">
+                                    <div class="font-about-title">02</div>
+                                    <div class="font-about-title">产品释义</div>
+                                    <div class="about-split"></div>
+                                    <div class="font-about-content">
+                                        <strong>鸿星</strong>/ 意指“红星”，且“鸿”又有“鸿鹄高飞，一举千里”的寓意。<br><br>
+                                        <strong>尔克</strong>/ 克服困难。意指不断挑战，不断创新的拼搏精神。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <img class="img-fluid" src="./images/about03.png">
+                                <div class="about-info">
+                                    <div class="font-about-title">03</div>
+                                    <div class="font-about-title">发展历程</div>
+                                    <div class="about-split"></div>
+                                    <div class="font-about-content">
+                                        打造全球领先的运动品牌！作为企业文化的重要组成部分，全新的愿景将支撑集团战略的推进，支持集团的品牌建设，在全新愿景的引领下，每一个尔克人都将凝心聚力，开拓前行，为加快建设成为全球领先的运动品牌而不懈奋斗！
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="commodity">
+            <div class="container title-main">
+                <div class="title">
+                    <div class="font-serial">02</div>
+                    <div class="font-title">
+                        <div class="font-title-en">DISPLAY</div>
+                        <div class="font-title-zh">商品展示</div>
+                    </div>
+                </div>
+                <div id="commodity_nav">
+                    <ul>
+                        <li class="active commodity-type " commodity-type="shoe"><a href="javascript:void(0);">鞋类</a><span class="component"></span></li>
+                        <li class="commodity-type " commodity-type="clothing"><a href="javascript:void(0);">服装</a><span class="component"></span></li>
+                        <li class="commodity-type " commodity-type="children_clothing"><a href="javascript:void(0);">儿童</a><span class="component"></span></li>
+                        <li class="commodity-type " commodity-type="other"><a href="javascript:void(0);">其他</a><span class="component"></span></li>
+                    </ul>
+                </div>
+                <div class="container commodity_show">
+                    <div class="row">
+                        <div class="col col-1 align-self-center d-none d-md-block">
+                            <a href="javascript:void(0);"><img id="commodity_show-go_left" class="img-fluid" src="./images/go_left.png"></a>
+                        </div>
+                        <div class="col commodity_list" id="commodity_list">
+                            <div class="container">
+                                <div class="row row-cols-2 row-cols-md-4">
+                                    <div class="col list-item">
+                                        <img  class="img-fluid" src="./images/commodity/shoe01.png">
+                                        <div class="font-commodity-name">契约鸿星尔克高帮板鞋</div>
+                                        <div class="font-commodity-info">皮革拼接</div>
+                                        <div class="font-commodity-price">&#165;209.0</div>
+                                    </div>
+                                    <div class="col list-item">
+                                        <img  class="img-fluid" src="./images/commodity/shoe02.png">
+                                        <div class="font-commodity-name">浔系列天吴-2021年新品弜弹科技</div>
+                                        <div class="font-commodity-info">皮革拼接</div>
+                                        <div class="font-commodity-price">&#165;269.0</div>
+                                    </div>
+                                    <div class="col list-item">
+                                        <img  class="img-fluid" src="./images/commodity/shoe03.png">
+                                        <div class="font-commodity-name">板鞋厚底小白鞋2021秋冬新款潮流复古休闲鞋子运动鞋</div>
+                                        <div class="font-commodity-info">皮革拼接</div>
+                                        <div class="font-commodity-price">&#165;179.0.0</div>
+                                    </div>
+                                    <div class="col list-item">
+                                        <img  class="img-fluid" src="./images/commodity/shoe04.png">
+                                        <div class="font-commodity-name">冬季新款板鞋时尚撞色轻便滑板鞋</div>
+                                        <div class="font-commodity-info">皮革拼接</div>
+                                        <div class="font-commodity-price">&#165;219.0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-1 align-self-center d-none d-md-block">
+                            <a href="javascript:void(0);"><img id="commodity_show-go_right" class="img-fluid" src="./images/go_right.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="commodity_page" id="commodity_page">
+                    <a href="javascript:void(0);"><span class="active"></span></a>
+                    <a href="javascript:void(0);"><span></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="commodity-all">
+            <button id="go_merchandise">全部商品</button>
+        </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <img src="./images/erke_logo1.png">
+                <div class="font-jumbotron-one">真诚感谢您对我们的支持，您的肯定和批评是我们前进的动力！</div>
+                <div class="font-jumbotron-two">如对我们有任何建议或者意见，请直接根据以下联系方式进行反馈！</div>
+            </div>
+        </div>
+        <div id="contact_us">
+            <div class="container title-main">
+                <div class="title">
+                    <div class="font-serial">03</div>
+                    <div class="font-title">
+                        <div class="font-title-en">CONTACT US</div>
+                        <div class="font-title-zh">联系我们</div>
+                    </div>
+                </div>
+                <div class="container contact_us-info">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mt-3 contact_us-content">
+                            <div class="title">鸿星尔克集团总部</div>
+                            <div class="content">
+                                地址：厦门市思明区观音山商务中心花莲路11号鸿星尔克大厦<br>
+                                服务热线：4006022033<br>
+                                传真：+86.592.2951208<br>
+                                邮编：361000<br>
+                                网址：http://www.erke.com<br>
+                                邮箱：erke@erke.com<br>
+                                网店加盟热线：4006022033
+                            </div>
+                        </div>
+                        <div class="col mt-3 contact_us-input">
+                            <div>
+                                <input id="name" placeholder="您的姓名:">
+                                <input id="contact_information" placeholder="联系方式:">
+                            </div>
+                            <textarea id="message" placeholder="您的留言:"></textarea>
+                            <button>提交</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <ul>
+                    <li><a href="javascript:void(0);">隐私政策</a></li>
+                    <li><a href="javascript:void(0);">加入我们</a></li>
+                    <li><a href="javascript:void(0);">发现店铺</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./images/china.png"><span class="national">中国</span>
+                <span class="copy">© 2021 Erke, Inc. 保留所有权利</span>
+                <img src="./images/china.png"><span class="icp">闽ICP备05018314号</span>
+            </div>
+        </div>
+        <!--JQuery v3.6.0-->
+        <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+        <!--Bootstrap v4.6.1-->
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+        <!--Index Page Javascript-->
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>

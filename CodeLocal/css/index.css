@@ -1,0 +1,550 @@
+@charset "utf-8";
+
+.banner-hint{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.font-shuangyi{
+    font-family: "汉仪双线体繁";
+    color: #9e2627;
+    font-size: 66px;
+}
+
+.font-pingfangmedium{
+    font-family: "苹方中等";
+    color: #acacac;
+    font-size: 16px;
+}
+
+.font-erke{
+    font-family: "苹方中等";
+    color: #ffffff;
+    font-size: 76px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.banner-hint button{
+    width: 200px;
+    padding: 4px;
+    border: 1px solid #242424;
+    border-radius: 12px;
+    background: none;
+    margin-top: 20px;
+}
+
+.banner-hint button:hover{
+    color: white;
+    background: #c02c38;
+}
+
+#about{
+    padding: 30px 0px;
+}
+
+.title-main{
+    position: relative;
+}
+
+.font-serial{
+    font-family: "微软雅黑 Regular";
+    font-size: 120px;
+    color: #d5acac;
+}
+
+.font-title{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+.font-title-en{
+    font-family: "苹方中等";
+    font-size: 52px;
+    color: #962525;
+}
+
+.font-title-zh{
+    font-family: "苹方中等";
+    font-size: 30px;
+    color: #333333;
+}
+
+#about .introduce{
+    font-family: "苹方中等";
+    color: #666666;
+    font-size: 24px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.about-images{
+    margin-top: 30px;
+    padding-left: 70px;
+}
+
+.about-images img{
+    height: 100%;
+}
+
+.about-images .col-sm{
+    padding: 0px;
+    background: #c02c38;
+}
+
+.about-images .col-sm .about-info{
+    display: none;
+}
+
+.about-images .col-sm:hover img{
+    display: none;
+}
+
+.about-images .col-sm:hover .about-info{
+    display: block;
+}
+
+.about-info{
+    padding: 30px;
+}
+
+.font-about-title{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: "苹方中等";
+}
+
+.about-split{
+    width: 80px;
+    height: 2px;
+    margin: 20px auto;
+    background:white;
+}
+
+.font-about-content{
+    font-family: "苹方细体";
+    font-size: 20px;
+    color: white;
+}
+
+#commodity{
+    padding: 30px 0px;
+    box-shadow: 0px 4px 4px #dddddd;
+    z-index: 100;
+}
+
+#commodity_nav{
+    font-family: "苹方中等";
+    font-size: 24px;
+}
+
+#commodity_nav .active{
+    font-size: 30px;
+}
+
+#commodity_nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#commodity_nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+#commodity_nav li a{
+    color: #333333;
+}
+
+#commodity_nav li a:hover{
+    color: #333333;
+    text-decoration: none;
+}
+
+#commodity_nav .active .component{
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #a81c2a;
+    margin: 0px auto;
+}
+
+#commodity_nav li:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.commodity_show{
+    margin-top: 30px;
+}
+
+.font-commodity-name{
+    margin-top: 20px;
+    font-family: "苹方中等";
+    font-size: 22px;
+    color: #333333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.font-commodity-info{
+    font-family: "苹方中等";
+    font-size: 20px;
+    color: #999999;
+}
+
+.font-commodity-price{
+    font-family: "苹方中等";
+    font-size: 24px;
+    color: #333333;
+}
+
+.commodity_list img{
+    height: 100px;
+}
+
+.commodity_page{
+    display: flex;
+    justify-content: end;
+}
+
+.commodity_page span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #999999;
+    border-radius: 20px;
+    margin-left: 4px;
+}
+
+.commodity_page .active{
+    background: #999999;
+}
+
+.commodity-all{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.commodity-all button{
+    font-family: "苹方中等";
+    font-size: 24px;
+    color: #333333;
+    background: none;
+    border: 2px solid #333333;
+    padding: 4px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+.commodity-all button:hover{
+    color: white;
+    background: #c02c38;
+}
+
+.jumbotron{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background: url(../images/contact_us.png);
+    text-align: center;
+    color: #dddbdb;
+    font-family: "苹方中等";
+}
+
+.font-jumbotron-one{
+    font-size: 22px;
+}
+
+.font-jumbotron-two{
+    font-size: 18px;
+}
+
+.jumbotron img{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.contact_us-content{
+    padding-left: 66px;
+}
+
+.contact_us-content .title{
+    font-family: "苹方中等";
+    font-size: 30px;
+    color: #333333;
+}
+
+.contact_us-content .content{
+    font-family: "苹方中等";
+    font-size: 20px;
+    color: #333333;
+}
+
+.contact_us-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_us-input input,.contact_us-input textarea,.contact_us-input button{
+    background: none;
+    border: 2px solid #333333;
+    font-family: "苹方中等";
+    font-size: 20px;
+    color: #333333;
+    padding: 4px 10px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.contact_us-input>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_us-input input:nth-child(1){
+    width: 30%;
+}
+
+.contact_us-input input:nth-child(2){
+    width: 68%;
+}
+
+.contact_us-input textarea{
+    width: 100%;
+    height: 160px;
+}
+
+.contact_us-input button{
+    width: 50%;
+    margin-top: 14px;
+    align-self: center;
+}
+
+.contact_us-input button:hover{
+    color: white;
+    background: #c02c38;
+}
+
+.list-item{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px){
+    .banner-hint{
+        bottom: 250px;
+        left: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .banner-hint{
+        bottom: 200px;
+        left: 200px;
+    }
+
+    .font-shuangyi{
+        font-size: 64px;
+    }
+    
+    .font-pingfangmedium{
+        font-size: 12px;
+    }
+    
+    .font-erke{
+        font-size: 72px;
+    }
+    
+    .font-about-title{
+        font-size: 24px;
+    }
+    
+    .font-about-content{
+        font-size: 16px;
+    }
+    
+    .commodity_list img{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .banner-hint{
+        bottom: 150px;
+        left: 150px;
+    }
+
+    .font-shuangyi{
+        font-size: 34px;
+    }
+    
+    .font-pingfangmedium{
+        font-size: 8px;
+    }
+    
+    .font-erke{
+        font-size: 38px;
+        bottom: 34px;
+    }
+
+    .font-serial{
+        font-size: 60px;
+    }
+    
+    .font-title{
+        top: 30px;
+        left: 40px;
+    }
+    
+    .font-title-en{
+        font-size: 26px;
+    }
+    
+    .font-title-zh{
+        font-size: 14px;
+    }
+
+    #about .introduce{
+        margin-left: 26px;
+        font-size: 16px;
+    }
+
+    .about-images{
+        padding-left: 26px;
+    }
+
+    .about-info{
+        padding: 10px;
+    }
+    
+    .font-about-title{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .about-split{
+        width: 60px;
+        height: 2px;
+        margin: 10px auto;
+    }
+    
+    .font-about-content{
+        font-size: 14px;
+    }
+
+    #commodity_nav{
+        font-family: "苹方中等";
+        font-size: 18px;
+    }
+    
+    #commodity_nav .active{
+        font-size: 24px;
+    }
+
+    #commodity_nav li{
+        margin-right: 20px;
+    }
+
+    .font-jumbotron-one{
+        font-size: 16px;
+    }
+    
+    .font-jumbotron-two{
+        font-size: 12px;
+    }
+
+    .commodity-all button{
+        font-size: 18px;
+    }
+
+    .contact_us-content{
+        padding-left: 26px;
+    }
+    
+    .contact_us-content .title{
+        font-size: 24px;
+    }
+    
+    .contact_us-content .content{
+        font-size: 14px;
+    }
+    
+    .contact_us-input{
+        padding-left: 26px;
+    }
+
+    .contact_us-input input,.contact_us-input textarea,.contact_us-input button{
+        font-size: 14px;
+    }
+
+    .font-commodity-name{
+        font-size: 16px;
+    }
+    
+    .font-commodity-info{
+        font-size: 14px;
+    }
+    
+    .font-commodity-price{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .banner-hint{
+        bottom: 70px;
+        left: 70px;
+    }
+
+    .about-info{
+        padding: 4px;
+    }
+    
+    .font-about-title{
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    
+    .about-split{
+        width: 60px;
+        height: 2px;
+        margin: 4px auto;
+    }
+    
+    .font-about-content{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .banner-hint{
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .commodity_list img{
+        height: 60px;
+    }
+
+    .font-commodity-name{
+        font-size: 14px;
+    }
+    
+    .font-commodity-info{
+        font-size: 12px;
+    }
+    
+    .font-commodity-price{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body{
+    font-family: "苹方常规";
+    color: #333333;
+}
+
+.about-info-01{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info-01-01{
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.title{
+    display: flex;
+    font-family: "汉仪双线体繁";
+    font-size: 90px;
+    align-items: center;
+    color: #c02c38;
+}
+
+.title div span{
+    display: block;
+    font-family: "苹方常规";
+    text-align: right;
+}
+
+.title div span:nth-child(1){
+    font-size: 26px;
+}
+
+.title div span:nth-child(2){
+    font-size: 32px;
+}
+
+.about-content{
+    font-size: 18px;
+    color: #010101;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.about-content span{
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 36px;
+    color: #c02c38;
+    margin: 20px 0px;
+}
+
+.about-img{
+    margin-top: 20px;
+}
+
+.about-info-01-02{
+    background: #c02c38;
+    padding: 20px;
+}
+
+.about-info-01-02 .title{
+    color: white;
+}
+
+.about-info-01-02 .title div span{
+    text-align: left;
+}
+
+@media screen and (max-width: 968px){
+    .about-info-01-01{
+        max-width: 100%;
+        margin: 20px 20px;
+    }
+
+    .title{
+        font-size: 70px;
+    }
+
+    .title div span:nth-child(1){
+        font-size: 22px;
+    }
+    
+    .title div span:nth-child(2){
+        font-size: 28px;
+    }
+
+    .about-info-01{
+        flex-direction: column;
+    }
+
+    .about-content{
+        margin: 0px;
+    }
+}

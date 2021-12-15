@@ -16,6 +16,11 @@ $("#go_merchandise").click(function(){
     location.href="./merchandise.html";
 });
 
+//注销监听
+$(".go_login").click(function(){
+    location.href="./login.html";
+});
+
 //监听添加地址按钮移入移出事件
 $(".tab-content #v-tnav-tabs-address .add").hover(function(){
     $(this).find("img").attr("src","./images/address-add-on.png");

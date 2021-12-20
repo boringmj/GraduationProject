@@ -51,7 +51,7 @@ var merchandise_value=[
         "to":"merchandise_more.html?id=shoe",
         "img_path":"./images/merchandise",
         "id":"shoe",
-        "big_img":"big picture.jpg",
+        "big_img":"big photo.jpg",
         "banner_img":"shoe-banner.jpg",
         "class":"color-black",
         "data":[

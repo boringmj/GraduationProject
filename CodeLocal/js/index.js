@@ -110,6 +110,11 @@ $(".commodity-type").click(function(){
     show_commodity_list();
 });
 
+//监听关于更多按钮点击事件
+$(".about_more").click(function(){
+    location.href="./about_more.html";
+});
+
 //定义一个用于刷新当前商品列表的函数
 function show_commodity_list(){
     var commodity_page=$("#commodity_page");

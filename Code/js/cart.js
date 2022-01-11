@@ -83,7 +83,7 @@ function show_commodity_info()
     $("#commodity_count").text(j);
     $(".stats_commodity_money").html("&#165;"+count.toFixed(2));
     $(".stats-concessions").html("&#165;"+(cart.concessions*i).toFixed(2));
-    $(".stats-count").html("&#165;"+(count-cart.concessions*i).toFixed(2));
+    $(".stats-count").html("实付款&#165;"+(count-cart.concessions*i).toFixed(2));
     if(j==0){
         $(".list\-empty").removeClass("invisible");
         $(".list\-is\-empty").removeClass("invisible");
